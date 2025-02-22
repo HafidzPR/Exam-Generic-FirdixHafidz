@@ -1,0 +1,24 @@
+📝 Soal 1: Generic Class
+Buat kelas generic bernama Box<T> yang bisa menyimpan satu objek dari tipe data apa pun.
+	•	Buat method setItem(T item) untuk menyimpan nilai.
+	•	Buat method T getItem() untuk mengambil nilai.
+	•	Buat contoh penggunaan Box<String> dan Box<Integer>.
+
+📝 Soal 2: Generic Method
+Buat method generic bernama printArray yang bisa mencetak elemen dari array dengan tipe data apa pun.
+
+📝 Soal 3: Bounded Type Parameter
+Buat kelas generic bernama MathOperation<T extends Number> yang bisa menerima angka saja (Integer, Double, dll.).
+	•	Buat method double square() yang mengembalikan nilai kuadrat dari angka yang diberikan.
+
+📝 Soal 4: Wildcard (?) dalam Generic
+Buat method generic bernama sumNumbers yang menerima List dari angka (? extends Number) dan mengembalikan jumlahnya.
+
+
+📝 Soal 5: Multiple Type Parameter
+Buat kelas generic bernama Pair<K, V> yang bisa menyimpan dua nilai dengan tipe berbeda (K sebagai key dan V sebagai value).
+	•	Buat method K getKey() dan V getValue().
+
+
+●	Notes
+Buat 2 Tim dalam mengerjakan ini.
